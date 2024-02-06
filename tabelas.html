@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<hmtl lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Tabelas</title>
+    </head>
+
+    <body>
+        <h1>Trabalhando com tabelas</h1>
+        <p>No HTML os dados tabulares são aqueles que podem ser representados visualmente em forma de tabela</p>
+        <p>A elaboração de uma tabeka consiste em uma combinação de linhas e colunas, resultando em uma forma objetiva e
+            ordenada de expor as informações. </p>
+        <h3>Tabela simples:</h3>
+        <table border="20">
+            <!---->
+            <tr>
+                <td>Violão</td>
+                <td>Guitarra</td>
+            </tr>
+            <tr>
+                <td>Violino</td>
+                <td>Piano</td>
+            </tr>
+
+        </table>
+        <h3>Tabela com título</h3>
+        <table border="1">
+            <tr>
+                <th>Instrumentos de corda</th>
+                <th>Instrumentos de sopro</th>
+            </tr>
+
+            <tr>
+                <td>Violino</td>
+                <td>Flauta</td>
+
+            </tr>
+            <td>Violão</td>
+            <td>Corneta</td>
+
+
+
+
+        </table>
+        <h3>Cabeçalho vertical</h3>
+        <table border="2">
+            <tr>
+                <th>Livros</th>
+                <td>Arte moderna</td>
+                <td>Programação</td>
+            </tr>
+            <tr>
+                <th>Quantidade</th>
+                <td>500 livros</td>
+                <td>800 livros</td>
+            </tr>
+        </table>
+    </body>
+</hmtl>
+
+<h3>Cabeçalho, corpo e rodapé</h3>
+<p>Estes elementos criam seções dentro da tabela que podem receber a tabela com muitos dados</p>
+<table border="1">
+    <caption> thead / tfoot / </caption>
+    <thead>
+        <tr>
+            <!--Para mesclar as células é usado o colspan(colunas)e rowspan-->
+            <th colspan="2">Coluna 1</th>
+            <th>Coluna 2</th>
+            <th>Coluna 3</th>
+        </tr>
+    </thead>
+    <tfoot>
+        <tr>
+            <td>Resultado 1</td>
+            <td>Resultado 2</td>
+            <td>Resultado 3</td>
+        </tr>
+    </tfoot>
+    <tr>
+        <td rowspan="2"> Conteudo 1 </td>
+        <td>Conteudo 2</td>
+        <td>Conteudo 3</td>
+
+    </tr>
+
+    </body>
+
+    </html>
