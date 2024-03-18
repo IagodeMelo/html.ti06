@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../projeto_MovaSe"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "projeto_MovaSe"
+	}
+}

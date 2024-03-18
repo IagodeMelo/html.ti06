@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-08">
+    <title>Trabalhando com css e javascrip</title>
+</head>
+
+<body>
+    <h1 id="titulo">Trabalhando com CSS em javascript</h1>
+
+    <button onclick="document.getElementById('titulo').style.color = 'green'">Alterar a cor do Título</button>
+    <p id="paragrafo1">Texto com titulo em destaque</p>
+
+    <button onclick="document.getElementById('paragrafo1').style.color = 'red'">Alterar a cor do Paragrafo</button>
+    <p id="paragrafo2">Texto em destaque</p>
+
+    <button onclick="document.getElementById ('paragrafo2').style.fontSize = '50px'">Alterar o tamanho da
+        fonte</button><button onclick="document.getElementById ('paragrafo2').style.fontFamily = 'courier new'">Alterar
+        a fonte</button>
+    <hr>
+    <p id="texto">Texto desenvolvido por um clique</p>
+
+    <button onclick="document.getElementById ('texto').innerHTML = 'Texto Transformado'">Clique aqui</button>
+    <br>
+
+    <p><button onclick="document.getElementById ('acesa').src = 'luz.jpg'">Ligar</button>
+
+        <button id="button1"
+            onclick="document.getElementById ('acesa').style.display = 'none'; document.getElementById ('button1').style.visibility = 'hidden'">Ocultar</button>
+
+        <button id="button2"
+            onclick="document.getElementById ('acesa').style.display = '';document.getElementById ('button1').style.visibility = 'visible'">Mostrar</button>
+
+        <button onclick="document.getElementById ('acesa'). src = 'apagada.jpg'">Apagar</button>
+    </p>
+    <img id="acesa" src="luz.jpg">
+    <p id="caixa"></p>
+
+
+
+    <script src="js/acoes.js">
+    </script>
+
+</body>
+
+
+</html>
