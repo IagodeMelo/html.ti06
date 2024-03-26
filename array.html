@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays</title>
+</head>
+
+<body>
+    <h1>Arrays</h1>
+    <p>É uma coleção/lista de danos indexados, ou seja, informações sequênciais começando em 0 (SEMPRE)</p>
+
+    <script>
+        let massas = ['Pizza', 'Raviole', 'Esfiha', 'Canelone'];
+        let fruta = ['Kiwi', 'Figo', 'Manga', 'Banana', 'Abacaxi', 'Morango']
+
+        console.log(massas)
+        massas.push("Espaguete") //inclui um item ao final da lista
+        massas[massas.length - 1] //usado para trazer o último item da lista
+
+        let herois = [];
+
+        herois[0] = "batman";
+        herois[1] = "hulk";
+        herois[2] = "homem de ferro";
+        herois[3] = "thor";
+
+        console.log("0" + heroi[1] + "almoça" + massas[3] + "e come" + fruta[4]);
+
+        let numeroHerois = herois.length; //Tamanho do array
+        console.log("Quantos herois?" + numeroHerois);
+
+        //sort() = método/função que ordena o conteúdo do array
+        let massasOrdenadas = massas.sort()
+        console.log(massasOrdenadas);
+        console.log(fruta.sort());
+
+        //indexOf() = método/função que retorna o indice do elemento.
+        console.log("Indice da Pizza" + massas.indexOf(Pizza))
+
+        //reverse() = método/função que ordena (ao contrário) a lista.
+        console.log(massas.reverse())
+
+        let coisas = [10, 'Iago', new Date, herois[2], <h2>Olá mundo</h2>];
+
+        //matriz
+        let programas = [
+            //0       1 
+            ['Word , Excel'], //0
+            ['Photoshop , Ilustrator'], //1
+            ['VsCode', 'Sublime']       //2
+        ]
+
+        console.log("Os programas são: " + programas[2][0] + "e " + programas[1][1])
+
+
+
+    </script>
+
+
+
+
+</body>
+
+</html>
