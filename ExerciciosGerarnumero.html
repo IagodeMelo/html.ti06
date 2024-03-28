@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio Gerar um numero</title>
+</head>
+
+<body>
+    <script>
+     
+    //function verificarParImpar(Numeros){
+      //  let resultados = [];
+        //for (let i = 0; i < Numeros.length; i++){
+          //  if(Numeros[i] % 2 == 0){
+            //    resultados.push(`${Numeros[i]} é par`);
+            //} else {
+              //  resultados.push(`${Numeros[i]} é impar`)
+            //}
+        //}
+    //return resultados;
+    //}
+//const numeros = [3,6,9,12,15];
+//const resultados =
+//verificarParImpar(numeros);
+//console.log(resultados);
+/////////
+//exercicio2
+function verificarPolindromo(palavra){
+    palavra = palavra.toLowerCase().replace(/\s/g,'');
+const palavraInvertida = palavra.split('').reverse().join('');
+if(palavra === palavraInvertida){
+return true;
+
+}else{ return false;
+
+}
+
+}
+const palavra1 = "Renner" 
+const palavra2 = "Ana"
+const palavra3 = "Banana"
+const palavra4 = "Museu"
+
+console.log(verificarPolindromo(palavra1));
+console.log(verificarPolindromo(palavra2));
+console.log(verificarPolindromo(palavra3));
+console.log(verificarPolindromo(palavra4));
+
+    </script>
+</body>
+
+</html>
